@@ -1,0 +1,210 @@
+﻿body
+{
+background:url("images/fond_jaune.png");
+font-family:sans-serif;
+width:900px;
+margin:auto;
+}
+
+#bloc_page
+{
+width:900px;
+margin:auto;
+}
+
+#titre_principal
+{
+	display:flex;
+	flex-direction:column;
+	margin-left:20px;
+}
+nav ul
+{
+list-style-type:none;
+display:flex;
+
+}
+nav li
+{
+	margin-right:15px;
+}
+header
+{
+background:url("images/separateur.png") repeat-x bottom;
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+
+}
+#logo 
+{
+	width:59px;
+	
+}
+header h1
+{
+font-size:30px;
+font-weight:normal;
+margin:0 0 0 50px;
+
+}
+header h2
+{
+font-size:20px;
+font-weight:normal;
+color:grey;
+margin-top:0;
+}
+nav a
+{
+	font-size:20px;
+	text-decoration:none;
+	color:#000000;
+}
+
+#banniere_image
+{
+	background-image:url("images/sanfrancisco.jpg");
+	height:200px;
+	width:880px;
+	margin:10px;
+	margin-bottom:0px;
+	border-radius:5px;
+
+		
+}
+#banniere_description
+{
+	height:40px;
+	width:auto;
+	background-color:rgba(24,24,24,0.75);
+	position:relative;
+	top:150px;
+	color:white;
+	padding:10px 10px 0px 10px;
+	display:flex;
+	justify-content:space-between;
+	border-radius:5px;
+}
+#bouton-rouge
+{
+	height:25px;
+	width:150px ;
+	border:2px solid #760001;
+	border-radius:5px;
+	background:url("images/fond_degraderouge.png") repeat;
+	text-decoration:none;
+	color:white;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+	
+}
+#bouton-rouge img
+{
+height:15px;
+padding:10px;
+}
+
+nav a,section h2, footer h2
+{
+	text-transform:Uppercase;
+	font-size:20px;
+}
+
+section, footer
+{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+padding:10px;
+
+}
+
+article, aside
+{
+	
+	text-align:justify;
+	padding:10px 10px 0px 10px;
+}
+article h2
+{
+	display:flex;
+	align-items:center;
+	margin:0px;
+}
+#ico-categorie
+{
+	width:30px;
+	margin-right:10px;
+}
+aside
+{
+	background-color:#706b64;
+	border-radius:5px;
+}
+aside h2
+{
+	text-align:center;
+	margin-top:8px;
+
+}
+#fleche-bulle
+{
+	position:relative;
+	left:-28px;
+	
+}
+#photo-zozor
+{
+	position:relative;
+	left:50px;
+	
+}
+aside img
+{
+	margin-left:7px;
+}
+footer
+{
+	background:url("images/ico_top.png") no-repeat top center,url("images/separateur.png") repeat-x top ,
+	url("images/ombre.png") repeat-x top;
+		}
+footer div
+{
+	margin-top:20px;
+	margin-left:10px;
+	padding: 10px 0px;
+	height:200px;
+}
+footer p,footer ul
+{
+	font-size:10px;
+	color:#000000;
+	
+}
+#mes-amis a
+{
+	text-decoration:none;
+	
+	
+}
+
+#mes-amis ul
+{
+	display:inline-flex;
+	flex-direction:column;
+	list-style-image:url("images/ico_liensexterne.png");
+	position:relative;
+	left:-25px;
+	margin-bottom:10px;
+	}
+
+#mes-amis li
+{
+	margin-bottom:5px;
+}
+
+
+
